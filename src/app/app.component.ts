@@ -9,4 +9,6 @@ import {products} from './products';
 export class AppComponent {
   title = 'AngBng';
   products = products;
+
+  share(){window.alert("say something")};
 }
