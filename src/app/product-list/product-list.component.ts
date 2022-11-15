@@ -7,7 +7,7 @@ import { products } from '../products';
 })
 export class ProductListComponent implements OnInit {
 
-  title = 'AngBng';
+  
   products = products;
 
   constructor() { }
